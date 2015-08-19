@@ -47,6 +47,9 @@ Ideally, I'd like to have a short once a week meeting via google hangout to allo
   + pip can be check similarly by running ```pip --version```
   + There is a good chance your mac came installed with python, in which case the above will work, if not: follow instructions [here](http://docs.python-guide.org/en/latest/starting/install/osx/) 
 
++ Use pip to install ipython with: ```pip install ipython```
+  + ipython is a nice interactive coding environment with some additional features over the standard python shell, we'll be leveraging some of those features during our workshop and I'll encourage you to use it during development.
+
 ## Assignment 0
   Submit a Pull Request to this Repository that adds your name to the roster.txt file
 
