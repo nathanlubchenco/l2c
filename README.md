@@ -52,6 +52,9 @@ is typically code and meant to be run in some environment. If there is no other 
 + Install Xcode from the app store (you'll need the developer tools)
 
 ## Assignment 0
+Note: this may require a command line tutorial before completing...so if it is too arcane...don't stress it at the moment.
+
+
   Submit a Pull Request to this Repository that adds your name to the roster.txt file
 
   First, fork the repository by clicking on the fork button in the upper right hand side of this screen. Then clone your fork with the following command in the terminal (you can do this in your home directory which is the default when you open the terminal, or you can make a new directory to put it in):
@@ -65,7 +68,7 @@ is typically code and meant to be run in some environment. If there is no other 
   git add .
   git commit
 ```
-Then hit i to go into insert mode (this will give you a taste of vim to see whether or not you want to dive into it) and type a message.  This should simply describe whatever change you are making. You can save and quit this file by typing ```:wq```  After this you can push your changes back with
+Then hit i to go into insert mode (this will give you a taste of vim to see whether or not you want to dive into it) and type a message.  This should simply describe whatever change you are making. Then hit esc to exit insert mode. You can save and quit this file by typing ```:wq```  After this you can push your changes back with
 ```
   git push
 ```
