@@ -42,14 +42,6 @@ Ideally, I'd like to have a short once a week meeting via google hangout to allo
 
   There are many choices, so if you don't like something that you try, its totally fine to try another.
 
-+ Ensure that you have Python 2.7.9 as well as pip installed.
-  + Python version can be checked by opening the terminal and running ```python --version```
-  + pip can be check similarly by running ```pip --version```
-  + There is a good chance your mac came installed with python, in which case the above will work, if not: follow instructions [here](http://docs.python-guide.org/en/latest/starting/install/osx/) 
-
-+ Use pip to install ipython with: ```pip install ipython```
-  + ipython is a nice interactive coding environment with some additional features over the standard python shell, we'll be leveraging some of those features during our workshop and I'll encourage you to use it during development.
-
 ## Assignment 0
   Submit a Pull Request to this Repository that adds your name to the roster.txt file
 
@@ -73,3 +65,16 @@ If you get stuck, please ask for help from myself or someone else that has succe
 ## Misc
 
 Don't worry if you don't understand all of this yet, we'll talk more about what's going on here in the future. But if you want to learn more now, google is your friend as well as [stack overlow](http://stackoverflow.com/). Also please ask questions and clarifications, if you have a question, there is an excellent chance that someone else would benefit from hearing the answer.
+
+Here are some incomplete instructions about python which we'll be using.  They probably aren't completely accurate, so only trust them a little bit. We can revisit in the workshop and/or i'll provide better instructions later.
+
+
++ Ensure that you have Python 2.7.x as well as pip installed.
+  + Python version can be checked by opening the terminal and running ```python --version```
+  + pip can be check similarly by running ```pip --version```
+  + There is a good chance your mac came installed with python, in which case the above will work, if not: follow instructions [here](http://docs.python-guide.org/en/latest/starting/install/osx/) 
+
++ Use pip to install ipython with: ```pip install ipython```
+  + ipython is a nice interactive coding environment with some additional features over the standard python shell, we'll be leveraging some of those features during our workshop and I'll encourage you to use it during development.
+
+
