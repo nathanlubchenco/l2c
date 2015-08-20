@@ -72,7 +72,7 @@ Then hit i to go into insert mode (this will give you a taste of vim to see whet
 ```
   git push
 ```
-If all has gone well, you can go back to the web page for this repo that is under my name and not your fork. And click on the green button with arrows in it.  This will bring up a pull request form and you can provide any additional comments. Fill out the form to submit a pull request.  In the comments, tag me with @nathanlubchenco so that I'll get emailed about it.  Then I can review it and merge the change in.
+If all has gone well, you can go back to the web page for this repo this is your fork. And click on the green button with arrows in it.  This will bring up a pull request form and you can provide any additional comments. Fill out the form to submit a pull request.  In the comments, tag me with @nathanlubchenco so that I'll get emailed about it.  Then I can review it and merge the change in.
 
 If you get stuck, please ask for help from myself or someone else that has succesfully done this.  The list of people who have succeeded will be apparent from the contents of the roster.txt file.
 
