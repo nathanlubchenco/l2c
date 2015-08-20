@@ -19,6 +19,13 @@ One of the outcomes of the in-person workshop will be an introduction to a proje
 
 Ideally, I'd like to have a short once a week meeting via google hangout to allow people to quickly tell others what they're working on, whether they need help with anything and communicate any other issues they are having.  Also, for those who have time, I can do a bit of teaching remotely. If we can't find a mutually agreeable time, we may just need to do this more adhoc. The majority of communication should be through the slack channel and comments on code during code review, but it's still just nice sometimes to be able to talk rather than type about things.  
 
+## A note on conventions
+
+Text that is in a code block:
+```
+like this
+```
+is typically code and meant to be run in some environment. If there is no other context, then its probably meant to be run from the terminal.
 
 ## Getting Started Instructions
 
@@ -42,13 +49,17 @@ Ideally, I'd like to have a short once a week meeting via google hangout to allo
 
   There are many choices, so if you don't like something that you try, its totally fine to try another.
 
++ Install Xcode from the app store (you'll need the developer tools)
+
 ## Assignment 0
   Submit a Pull Request to this Repository that adds your name to the roster.txt file
 
-  First, fork the repository by clicking on the fork button in the upper right hand side of this screen. Then clone your fork with:
+  First, fork the repository by clicking on the fork button in the upper right hand side of this screen. Then clone your fork with the following command in the terminal (you can do this in your home directory which is the default when you open the terminal, or you can make a new directory to put it in):
 ``` 
   git clone https://github.com/[your_user_name]/l2c.git
 ```
+  What this does is copy the code from github to your computer. Then you can edit it locally, make changes and then add those changes back into the repository.
+
   Then in the directory on your local machine, edit the roster.txt file to include your name. Then in the command line:
 ```
   git add .
