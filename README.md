@@ -51,8 +51,17 @@ is typically code and meant to be run in some environment. If there is no other 
 
 + Install Xcode from the app store (you'll need the developer tools)
 
+## Assignment -1
+
+Get some familiarity with the command line. I've done much of this tutorial before:
+
+[command line the hard way](http://cli.learncodethehardway.org/book/)
+
+So i'd recommend starting with that and asking any questions you may have in Slack.  Googling will likely provide other resources, with keywords like *command line* or *cli* (command line interface) or perhaps even terminal.
+
+
 ## Assignment 0
-Note: this may require a command line tutorial before completing...so if it is too arcane...don't stress it at the moment.
+Note: this may require a command line tutorial before completing...so if it is too arcane...don't stress it at the moment. (added Assignment -1 above)
 
 
   Submit a Pull Request to this Repository that adds your name to the roster.txt file
