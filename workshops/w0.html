@@ -32,12 +32,23 @@ class: center, middle
 3. Version Control - Git / Github 
 4. Language of the Internet: Http / JSON / REST APIs 
 5. Project Management: Jira / Scrum / Agile
-6. Python Data Structures 
-7. Coding 
+6. Intro to Python 
+7. Data Structures 
+8. Questions / Pair Programming (time permitting) 
 
 ---
 
 # Introduction
+
++ Front End
++ Back End
++ Ops
+
++ Programming Language Theory (lite)
+
++ Startups?
+
++ Advice on learning
 
 ---
 
@@ -275,13 +286,14 @@ Also can paste url in a browser
 # Language of the Internet 
 ## HTTP codes
 
-200s - Yay everything is good, successful call 
-400s - Something went wrong:
-+ 403: Forbidden
-+ 404: Not Found
-500s - Something went really really wrong (but in a different way), the server did not respond
++ 200s - Yay everything is good, successful call 
++ 400s - Something went wrong:
+  + 403: Forbidden
+  + 404: Not Found
++ 500s - Something went really really wrong (but in a different way), the server did not respond
 
---- 
+
+---
 # Language of the Internet
 
 Another useful tool - wget
@@ -292,12 +304,25 @@ wget url/you/want/to/download
 
 ---
 # Interactive Session II
-
 Make a couple curl request to an endpoing with an additional -v option
 + make one that you know should succeed and confirm that you got a 200 response
 + make one that you know should fail and see what sort of response you get
 
 Use wget to download a website and then insepct the contents of the file
++ Open Chrome
++ Right Click, inspect element
++ be blown away by what the web looks like
++ click on console
++ you can run javascript here
+
+```javascript
+var x = {"fruit" : "tomato", "vegetable" : "asparagus"}
+```
+you can derefence the object with
+```javascript
+x.fruit
+x["fruit"]
+```
 
 ---
 
@@ -309,10 +334,85 @@ Project Management
 
 + Vocabulary
 
+---
+
+# Intro to Python 
+
++ a python file ends with a .py extension
+
+it can be run from the command line
+```bash
+python some_python_file.py
+```
+
+you can also load python files into ipython with
+```python
+%load some_python_file.py
+```
+
+ipython is a repl (Read, Eval, Print, Loop) where you can interactively write code
 
 ---
 
+# Intro to Python 
+
+assign variables like this:
+```python
+x = 12
+```
+print them to the screen:
+```python
+print x
+```
+or print other things as well:
+```python
+print this is a super important message
+```
+---
+
 # Interactive Session III
+
++ write a python script that prints something to the screen
++ run it from the command line
+
++ load ipython ( or just the standard python interpreter if you haven't downloaded it yet)
++ make a variable
++ reassign that variable to something else
++ print out the variable
+
+---
+
+# Intro to Python 
+
+## What is a Function?
+
+Declare a function in python:
+```python
+def function_name(arg1, arg2):
+    # do really interesting or possibly quite boring things with args
+    # find a final result
+    return result
+```
+
+Example:
+```python
+def add_1(n):
+    return n+1
+```
+
+## **a note about whitespace and indentation**
+
+---
+
+# Python Data Structures 
+
++ lists
++ dictionarys (dicts) 
+
+
+---
+
+# Interactive Session IV
 
 + Grab a ticket in Jira (from the intro epic) 
 + assign it to yourself
@@ -321,11 +421,11 @@ Project Management
 + commit your code, submit a PR, get someone to review your code
 + once your code is merged, move the ticket to done
 
-# Python Data Structures 
-
 ---
 
-# Coding 
+# Questions?
+
+# Pair Programming Time Permitting
 
 
 
